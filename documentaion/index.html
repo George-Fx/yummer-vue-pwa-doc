@@ -217,24 +217,29 @@
             providers.
           </li>
           <li class="structure__list-item">
-            <strong>src / pages:</strong>
-            Full-page components. Each screen represents a separate route and
-            assembles widgets and features into a complete view.
-          </li>
-          <li class="structure__list-item">
-            <strong>src / widgets:</strong>
-            Large self-contained UI blocks that combine features and entities
-            into meaningful interface sections.
-          </li>
-          <li class="structure__list-item">
             <strong>src / entities:</strong>
             Business entities the project works with (e.g. products, catalog
             items). Contains entity-specific UI, models, and API calls.
           </li>
           <li class="structure__list-item">
+            <strong>src / features:</strong>
+            Specific features that implement business logic and can be reused
+            across different screens.
+          </li>
+          <li class="structure__list-item">
+            <strong>src / pages:</strong>
+            Full-page components. Each screen represents a separate route and
+            assembles widgets and features into a complete view.
+          </li>
+          <li class="structure__list-item">
             <strong>src / shared:</strong>
             Reusable composable functions with no dependency on business domain
             — shared logic across the entire application.
+          </li>
+          <li class="structure__list-item">
+            <strong>src / widgets:</strong>
+            Large self-contained UI blocks that combine features and entities
+            into meaningful interface sections.
           </li>
         </ul>
         <img src="assets/structure.png" class="steps__section-image" />
@@ -461,11 +466,9 @@
 
           <br />
           <br />
-          <span>- onboarding.json</span>
-          <br />
           <span>- dishes.json</span>
           <br />
-          <span>- offers.json</span>
+          <span>- orders.json</span>
           <br />
           <span>- promocodes.json</span>
         </p>
